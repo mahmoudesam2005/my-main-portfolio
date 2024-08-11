@@ -42,7 +42,7 @@ export default function MasCompany() {
                 </div>
                 <div className="mas-description">
                     <p>
-                        2023 - Present
+                        2024 - Present
                     </p>
                     <div>
                         <p>
