@@ -6,20 +6,20 @@ import "./ButtonTrans.css"
 function ButtonTrans({margin = false, cv = false, gm = false ,children}) {
     if (cv) {
         return (
-            <a href="../../assets/files/mcv.docx" download="cv.docx" className={`trans ${margin ? "no-margin" : ""}`}>
+            <a href="https://raw.githubusercontent.com/mahmoudesam2005/my-main-portfolio/main/src/assets/files//mcv.docx" download="cv.docx" className={`trans ${margin ? "no-margin" : ""}`}>
                 {children}
             </a>
         )
     }
     if (gm) {
         return (
-            <a href="../../assets/files/gm.png" download="mas_gm_recommendation.png" className={`trans ${margin ? "no-margin" : ""}`}>
+            <a href="https://raw.githubusercontent.com/mahmoudesam2005/my-main-portfolio/main/src/assets/files/gm.png" download="mas_gm_recommendation.png" className={`trans ${margin ? "no-margin" : ""}`}>
                 {children}
             </a>
         )
     }
     return (
-        <a href="../../assets/files/mre.png" download="math_recommendation_letter.png" className={`trans ${margin ? "no-margin" : ""}`}>
+        <a href="https://raw.githubusercontent.com/mahmoudesam2005/my-main-portfolio/main/src/assets/files/files/mre.png" download="math_recommendation_letter.png" className={`trans ${margin ? "no-margin" : ""}`}>
             {children}
         </a>
     )
