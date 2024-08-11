@@ -1,0 +1,65 @@
+
+.trans {
+    padding: 15px 20px;
+    margin: 20px 8px;
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+    border: 2px solid var(--main-color) !important;
+}
+
+.trans {
+    color: var(--main-color);
+    border-radius: var(--main-btn-radius);
+    -webkit-border-radius: var(--main-btn-radius);
+    -moz-border-radius: var(--main-btn-radius);
+    -ms-border-radius: var(--main-btn-radius);
+    -o-border-radius: var(--main-btn-radius);
+    outline: none;
+    background-color: transparent;
+    position: relative;
+}
+
+.trans::before {
+    content: "";
+    background-color: var(--main-color);
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 50%;
+    width: 0;
+    height: 100%;
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+    z-index: -1;
+}
+
+.trans::after {
+    content: "";
+    background-color: var(--main-color);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 100%;
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+    z-index: -1;
+}
+
+.trans:hover {
+    color: black;
+}
+
+.trans:hover::before,
+.trans:hover::after {
+    width: 50%;
+}

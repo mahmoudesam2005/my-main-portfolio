@@ -1,0 +1,21 @@
+.certificates-title {
+    margin: 150px auto;
+    padding: 20px;
+}
+
+.certificates-title .container.note {
+    background-image: linear-gradient(-45deg, #fff8f8, #e3e3ff, #efefef);
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    margin: 20px auto;
+    line-height: 1.5;
+}
+
+div.certificates-container.container {
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

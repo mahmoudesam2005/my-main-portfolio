@@ -1,0 +1,73 @@
+header.welcome .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 150px auto;
+}
+
+.left-icons {
+    display: flex;
+    flex-direction: column;
+    color: var(--main-color)
+}
+
+.left-icons > div {
+    margin: 5px 0;
+}
+
+.left-icons > div.line {
+    width: 2px;
+    height: 25px;
+    background-color: var(--main-color);
+    border-radius: var(--main-btn-radius);
+    -webkit-border-radius: var(--main-btn-radius);
+    -moz-border-radius: var(--main-btn-radius);
+    -ms-border-radius: var(--main-btn-radius);
+    -o-border-radius: var(--main-btn-radius);
+    margin: 5px auto;
+}
+
+.welcome .container .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.welcome .mini-text {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+
+.welcome h1.name {
+    margin: 20px auto 5px;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+}
+
+.welcome p.job-title {
+    font-size: 14px;
+    color: var(--main-color);
+    margin-bottom: 20px;
+}
+
+.welcome .buttons-container {
+    margin: 30px auto;
+}
+
+
+.right-title {
+    transform: rotate(90deg) translate(-71px, 100px);
+    -webkit-transform: rotate(90deg) translate(-71px, 100px);
+    -moz-transform: rotate(90deg) translate(-71px, 100px);
+    -ms-transform: rotate(90deg) translate(-71px, 100px);
+    -o-transform: rotate(90deg) translate(-71px, 100px);
+    width: 20px;
+}
+
+div.right-title > p {
+    color: var(--main-color);
+    font-size: 14px;
+}

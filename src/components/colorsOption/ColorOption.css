@@ -1,0 +1,103 @@
+.colors-box {
+    background-image: linear-gradient(-45deg, #fff8f8, #adb0d8f5, #508ae8);
+    width: 500px;
+    height: 500px;
+    border-radius: var(--main-radius);
+    -webkit-border-radius: var(--main-radius);
+    -moz-border-radius: var(--main-radius);
+    -ms-border-radius: var(--main-radius);
+    -o-border-radius: var(--main-radius);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 99999999;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 5px;
+
+}
+
+.colors-box:hover {
+    transform: translate(-50%, -50%) scale(1.05);
+    -webkit-transform: translate(-50%, -50%) scale(1.05);
+    -moz-transform: translate(-50%, -50%) scale(1.05);
+    -ms-transform: translate(-50%, -50%) scale(1.05);
+    -o-transform: translate(-50%, -50%) scale(1.05);
+}
+
+.colors-box h1 {
+    font-size: 25px;
+}
+
+.hide {
+    opacity: 0 !important;
+    left: -100%;
+}
+
+.show {
+    opacity: 1 !important;
+    left: 50%;
+}
+
+.colors {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.colors > li {
+    width: 140px;
+    height: 40px;
+    margin: 5px auto;
+    border-radius: var(--main-btn-radius);
+    -webkit-border-radius: var(--main-btn-radius);
+    -moz-border-radius: var(--main-btn-radius);
+    -ms-border-radius: var(--main-btn-radius);
+    -o-border-radius: var(--main-btn-radius);
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+.colors > li:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+.colors > .default {
+    background-color: #4db5ff;
+}
+
+.colors > .terquas {
+    background-color: #00bcd4;
+}
+
+.colors > .magenta {
+    background-color: #e91e63;
+}
+
+.colors > .green {
+    background-color: #009688;
+}
+
+.colors > .active-color {
+    border: 1px solid #1d1d35;;
+}
+

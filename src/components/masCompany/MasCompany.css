@@ -1,0 +1,72 @@
+.mas-heading{
+    margin: 150px auto 100px;
+    display: flex;
+}
+
+.mas .mas-img {
+    background-color: white;
+    border-radius: var(--main-radius);
+    -webkit-border-radius: var(--main-radius);
+    -moz-border-radius: var(--main-radius);
+    -ms-border-radius: var(--main-radius);
+    -o-border-radius: var(--main-radius);
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+    margin: 100px auto;
+}
+
+.mas .mas-img:hover  {
+    transform: scale(1.07);
+    -webkit-transform: scale(1.07);
+    -moz-transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    -o-transform: scale(1.07);
+}
+
+.mas .mas-description-title {
+    margin: 100px auto 70px;
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(-45deg, #fff8f8, #e3e3ff, #efefef);
+    position: relative;
+}
+
+.mas .mas-description-title::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-image: linear-gradient(-45deg, #fff8f8, #c0a3faf5, var(--main-color));
+    border-radius: var(--main-radius);
+    -webkit-border-radius: var(--main-radius);
+    -moz-border-radius: var(--main-radius);
+    -ms-border-radius: var(--main-radius);
+    -o-border-radius: var(--main-radius);
+}
+
+.mas .mas-description {
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(-45deg, #fff8f8, #e3e3ff, #efefef);
+    line-height: 1.8;
+}
+
+.mas .mas-description > p:first-child {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px
+}
+
+.mas .mas-description > div p {
+    margin: 20px 0;
+}

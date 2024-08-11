@@ -1,0 +1,20 @@
+div.projects-container.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    gap: 35px;
+    margin: 100px auto;
+}
+
+div.projects-container .project-box {
+    border-radius: var(--main-radius);
+    -webkit-border-radius: var(--main-radius);
+    -moz-border-radius: var(--main-radius);
+    -ms-border-radius: var(--main-radius);
+    -o-border-radius: var(--main-radius);
+    overflow: hidden;
+    background-color: var(--projects-color);
+}
+
+.special {
+    color: var(--main-color) !important;
+}

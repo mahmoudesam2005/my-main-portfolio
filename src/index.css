@@ -1,0 +1,89 @@
+/* Global Rules */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #4db5ff;
+  --gray-color: #9595a1;
+  --purple-color: #2c2c6c;
+  --projects-color: #77778e59;
+  --main-btn-radius: 5px;
+  --main-radius: 15px;
+  --main-transition: .4s;
+}
+
+body {
+  background-image: url("./assets/background.png");
+  background-size: 100% 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  padding-bottom: 100px;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.px-3 {
+  padding: 0 30px;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+      width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+      width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+      width: 1170px;
+  }
+}
+
+.relative {
+  position: relative;
+}
+
+.info-paragraph > p {
+  margin: 15px 0;
+}
+
+.fade-in {
+  animation: fadeOut .5s ease-in-out 1 forwards reverse;
+  -webkit-animation: fadeOut .5s ease-in-out 1 forwards reverse;
+}
+
+
+.fade-out {
+  animation: fadeOut .5s ease-in-out 1 forwards;
+  -webkit-animation: fadeOut .5s ease-in-out 1 forwards;
+}
+
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
