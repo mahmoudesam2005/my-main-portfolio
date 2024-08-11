@@ -19,7 +19,7 @@ function ButtonTrans({margin = false, cv = false, gm = false ,children}) {
         )
     }
     return (
-        <a href="https://raw.githubusercontent.com/mahmoudesam2005/my-main-portfolio/main/src/assets/files/files/mre.png" download="math_recommendation_letter.png" className={`trans ${margin ? "no-margin" : ""}`}>
+        <a href="https://raw.githubusercontent.com/mahmoudesam2005/my-main-portfolio/main/src/assets/files/mre.png" download="math_recommendation_letter.png" className={`trans ${margin ? "no-margin" : ""}`}>
             {children}
         </a>
     )
