@@ -15,7 +15,7 @@ export default function MasCompany() {
                     <img src={sinbad} alt="" />
                 </div>
                 <div className="mas-description-title">
-                    <h1>ٍSinba Officd For Tourisim Services</h1>
+                    <h1>Sinbad Office For Tourisim Services</h1>
                 </div>
                 <div className="mas-description">
                     <p>
