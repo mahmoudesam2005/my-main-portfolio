@@ -52,12 +52,6 @@ function Projects() {
                         <a href="https://github.com/mahmoudesam2005/consumption" target="_blank"><button>See Online</button></a>
                     </div>
                 </Project>
-                <Project img={rees} title="React Essentils Project">
-                    This is a project built to show the react essentials, built with React JS, HTMl, CSS and JavaScript.
-                    <div className="project-button">
-                        <a href="https://mahmoudesam2005.github.io/essentials-re/" target="_blank"><button>See Online</button></a>
-                    </div>
-                </Project>
                 <Project img={mas} title="Mas Engineering Consultancy">
                     This is the MAS Consultancy Services Company website, developed using HTML, CSS, JavaScript, and jQuery.
                     currently working on a new version for the project page that is not done yet but you can explore it from <a href="https://mahmoudesam2005.github.io/mas_projects/" target="_blank" className="special">By clicking on these colored words</a> or see the current website by clicking the button below
