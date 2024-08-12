@@ -101,12 +101,6 @@ function Projects() {
                         <a href="https://mahmoudesam2005.github.io/pinkTemplate/" target="_blank"><button>See Online</button></a>
                     </div>
                 </Project>
-                <Project img={Kasper} title="Kasper Project">
-                    This is Kasper website built with HTML and CSS.
-                    <div className="project-button">
-                        <a href="https://mahmoudesam2005.github.io/HTML_And_CSS_Template_Two/" target="_blank"><button>See Online</button></a>
-                    </div>
-                </Project>
                 <Project img={card} title="Product Cards">
                     These are product cards built with HTML and CSS.
                     <div className="project-button">
@@ -117,12 +111,6 @@ function Projects() {
                     This is a dash board website built with HTML and CSS.
                     <div className="project-button">
                         <a href="https://mahmoudesam2005.github.io/HTML_And_CSS_Template_Four/" target="_blank"><button>See Online</button></a>
-                    </div>
-                </Project>
-                <Project img={Leon} title="Leon Project">
-                    This is Leon website built with HTML and CSS.
-                    <div className="project-button">
-                        <a href="https://github.com/mahmoudesam2005/HTML_And_CSS_Template_One" target="_blank"><button>See Online</button></a>
                     </div>
                 </Project>
             </div>
