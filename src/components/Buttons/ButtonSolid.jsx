@@ -5,7 +5,7 @@ import "./ButtonSolid.css";
 function ButtonSolid({ margin = false, contact = false, sinbad = false, children }) {
     if (sinbad) {
         return (
-            <a href="https://raw.githubusercontent.com/mahmoudesam2005/my-main-portfolio/main/src/assets/files//sn.png" download="sinbad_recommendation.png" className={`solid ${margin ? "no-margin" : ""}`}>
+            <a href="https://drive.google.com/open?id=1x4NOrbs6rFPRdm4S8j56krzdA3irNhjF&authuser=0" target="_blank" className={`solid ${margin ? "no-margin" : ""}`}>
                 {children}
             </a>
         );
