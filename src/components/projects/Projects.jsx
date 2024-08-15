@@ -32,7 +32,7 @@ function Projects() {
                     </div>
                 </Project>
                 <Project img={nat} title="National Parks Project">
-                    Explore the National Parks Project, crafted with React.js and styled with Bootstrap. It seamlessly integrates HTML, CSS, and JavaScript to deliver a dynamic and engaging user experience.
+                    Explore the National Parks Project Built with jQuery styled with Bootstrap. It seamlessly integrates HTML, CSS, and JavaScript to deliver a dynamic and engaging user experience.
                     I&apos;m still working on this website until now, improving the responsive content and adding other features
                     <div className="project-button">
                     <a href="https://mahmoudesam2005.github.io/national-parks/" target="_blank"><button>See Online</button></a>
