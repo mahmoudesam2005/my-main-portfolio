@@ -19,8 +19,7 @@ export default function Certificates() {
         <>
             <div className="certificates-title">
                 <MainHeading smTitle={"Take a look at"} title="My Certificates"></MainHeading>
-                <p className="container note">While these certificates represent a significant portion of my learning journey, they are not the sole evidence of my skills. I have also completed numerous other courses on various platforms, such as YouTube, which do not provide formal certificates but have contributed greatly to my expertise,
-                and there are those other projects that I&apos;ve done during my online courses like the project of Data Collection and Processing Python course where I&apos;ve wrote a python code to fetch some data from other websites APIs and use it.
+                <p className="container note">While these certificates represent a significant portion of my learning journey, they are not the sole evidence of my skills. I have also completed numerous other courses on various platforms, such as YouTube, which do not provide formal certificates but have contributed greatly to my expertise
                 </p>
                 <div className="container certificates-container">
                     <CerSelf img={csx} cap="CS50X By Harvard University"></CerSelf>
