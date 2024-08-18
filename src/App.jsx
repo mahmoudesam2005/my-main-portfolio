@@ -9,6 +9,7 @@ import Projects from "./components/projects/Projects.jsx";
 import MasCompany from "./components/masCompany/MasCompany.jsx";
 import Certificates from "./components/certificates/Certificates.jsx";
 import ColorOption from "./components/colorsOption/ColorOption.jsx";
+import CoursesProjects from "./components/coursesProjects/CoursesProjects.jsx";
 
 let commingIndex = null;
 
@@ -79,10 +80,15 @@ function App() {
       : ""}
       { currentIndex === 2 ? 
         <div className={`${fadeIn[0] && fadeIn[1] === commingIndex ? fading[0] : ""} ${fadeOut[0] && fadeOut[1] === currentIndex ? fading[1] : ""} relative`}>
+          <CoursesProjects></CoursesProjects>
+        </div>
+      : ""}
+      { currentIndex === 3 ? 
+        <div className={`${fadeIn[0] && fadeIn[1] === commingIndex ? fading[0] : ""} ${fadeOut[0] && fadeOut[1] === currentIndex ? fading[1] : ""} relative`}>
           <MasCompany></MasCompany>
         </div>
       : ""}
-      { currentIndex === 3 ?
+      { currentIndex === 4 ?
         <div className={`${fadeIn[0] && fadeIn[1] === commingIndex ? fading[0] : ""} ${fadeOut[0] && fadeOut[1] === currentIndex ? fading[1] : ""} relative`}>
           <Certificates></Certificates>
         </div>

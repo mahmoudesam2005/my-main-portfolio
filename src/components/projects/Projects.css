@@ -18,3 +18,7 @@ div.projects-container .project-box {
 .special {
     color: var(--main-color) !important;
 }
+
+.move-top {
+    margin-top: 200px;
+}
