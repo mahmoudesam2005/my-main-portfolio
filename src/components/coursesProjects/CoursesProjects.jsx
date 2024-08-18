@@ -30,7 +30,7 @@ function Projects() {
                     </div>
                 </Project>
                 <Project img={py} title="Python Classes And Inheritences Wheel Of Fortune" className="rat">
-                "I developed a Python project where I implemented the classes WOFPlayer, WOFHumanPlayer, and WOFComputerPlayer for a Wheel of Fortune game. This project allowed me to practice object-oriented programming, focusing on class design, inheritance, and encapsulation.
+                I developed a Python project where I implemented the classes WOFPlayer, WOFHumanPlayer, and WOFComputerPlayer for a Wheel of Fortune game. This project allowed me to practice object-oriented programming, focusing on class design, inheritance, and encapsulation.
                     <div className="project-button">
                         <a href="https://github.com/mahmoudesam2005/WheelOfFortune.git" target="_blank"><button>See Online</button></a>
                     </div>
