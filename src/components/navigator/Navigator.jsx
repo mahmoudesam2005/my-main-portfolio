@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import PropTypes from "prop-types";
 import "./Navigator.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse, faCode, faFileCode, faBuilding, faGem, faPalette } from '@fortawesome/free-solid-svg-icons';
+import { faHouse, faCode, faBuilding, faGem, faPalette } from '@fortawesome/free-solid-svg-icons';
 
 
 const iconNames = {
@@ -13,14 +13,11 @@ const iconNames = {
     faGem: 'gem'
 };
 
-<FontAwesomeIcon icon={faFileCode} />
-
 function Navigator({fn, vfn, open}) {
 
     const [links, updateLinks] = useState([
         [faHouse, true, iconNames.faHouse],
         [faCode, false, iconNames.faCode],
-        [faFileCode, false, iconNames.faCode],
         [faBuilding, false, iconNames.faBuilding],
         [faGem, false, iconNames.faGem]
     ]);
