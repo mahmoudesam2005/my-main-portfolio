@@ -3,8 +3,6 @@ import PropTypes from "prop-types";
 import "./Projects.css";
 import MainHeading from "../mainHeading/MainHeading.jsx";
 import Project from "../project/Project.jsx";
-import Leon from "../../assets/web_imgs/leon.jpg";
-import Kasper from "../../assets/web_imgs/kasper.png";
 import Dash from "../../assets/web_imgs/dash.png";
 import Joy from "../../assets/web_imgs/joy.png";
 import dog from "../../assets/web_imgs/dog.png";
@@ -16,7 +14,6 @@ import todo from "../../assets/web_imgs/todo.png";
 import prt from "../../assets/web_imgs/port.png";
 import oldport from "../../assets/web_imgs/oldport.png";
 import nat from "../../assets/web_imgs/nat.png";
-import rees from "../../assets/web_imgs/reees.png";
 import py from "../../assets/logos/python.png";
 import card from "../../assets/web_imgs/cards.png";
 
