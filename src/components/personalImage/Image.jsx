@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Image.css";
-import Mahmoud from "../../assets/mahmoud_white.png";
+import Mahmoud from "../../assets/me.png";
 
 
 function Image() {
