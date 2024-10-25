@@ -6,7 +6,7 @@ import "./ButtonTrans.css"
 function ButtonTrans({margin = false, cv = false, gm = false ,children}) {
     if (cv) {
         return (
-            <a href="https://raw.githubusercontent.com/mahmoudesam2005/my-main-portfolio/main/src/assets/files//mcv.docx" target="_blank" className={`trans ${margin ? "no-margin" : ""}`}>
+            <a href="https://drive.google.com/file/d/1akAL2UTg6Vhh6kV1xT2Ba2J35W-pFVak/view?usp=drive_link" target="_blank" className={`trans ${margin ? "no-margin" : ""}`}>
                 {children}
             </a>
         )
